@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"types": ["reflect-metadata", "node"],
+		"moduleResolution": "Node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"target": "ES2017",
+		"module": "commonjs",
+		"allowJs": true,
+		"sourceMap": true,
+		"typeRoots": ["node_modules/@types"],
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"@entities/*": ["src/entities/*"],
+			"@constants/*": ["src/constants/*"],
+			"@interfaces/*": ["src/interfaces/*"],
+			"@providers/*": ["src/providers/*"],
+			"@repositories/*": ["src/repositories/*"],
+			"@use-cases/*": ["src/use-cases/*"]
+		}
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
