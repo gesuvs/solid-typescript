@@ -1,4 +1,3 @@
-import "reflect-metadata";
 import { Container } from "inversify";
 import { TYPES } from "@constants/types";
 import { UserRepository } from "@repositories/implementations";
